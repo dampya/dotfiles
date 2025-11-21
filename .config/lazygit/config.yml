@@ -1,0 +1,32 @@
+gui:
+  theme:
+    # Borders
+    activeBorderColor:
+      - '#98971a'   # Gruvbox green (active elements)
+      - bold
+    inactiveBorderColor:
+      - '#3c3836'   # Dim gray (inactive borders)
+
+    # Texts and options
+    optionsTextColor:
+      - '#458588'   # Gruvbox blue (options / hints)
+    defaultFgColor:
+      - '#ebdbb2'   # Gruvbox foreground (default text)
+
+    # Selections and highlights
+    selectedLineBgColor:
+      - '#282828'   # Subtle dark highlight
+    searchingActiveBorderColor:
+      - '#d79921'   # Yellow accent for search state
+
+    # Commit states
+    cherryPickedCommitBgColor:
+      - '#3c3836'   # Dim gray
+    cherryPickedCommitFgColor:
+      - '#b16286'   # Magenta (matches Discord titles)
+    unstagedChangesColor:
+      - '#cc241d'   # Red (unstaged/error)
+
+  authorColors:
+    '*': '#689d6a'   # Aqua (authors, friendly accent)
+

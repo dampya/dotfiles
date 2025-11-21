@@ -1,0 +1,9 @@
+{
+  "keyMappings": "# Insert your preferred key mappings here.\n\nmap q LinkHints.activateMode\nmap Q LinkHints.activateModeToOpenInNewTab\n\nunmap f\nunmap F",
+  "linkHintCharacters": "asdfghjkl",
+  "grabBackFocus": true,
+  "settingsVersion": "2.3.1",
+  "userDefinedLinkHintCss": "div > .vimiumHintMarker {\n  /* Gruvbox Dark hint boxes */\n  background: #3c3836; /* dark gray background */\n  border: 1px solid #504945; /* slightly lighter gray border */\n  border-radius: 3px;\n  padding: 1px 3px;\n}\n\ndiv > .vimiumHintMarker span {\n  /* Hint text */\n  color: #ebdbb2; /* light text (fg1) */\n  font-weight: bold;\n  font-size: 12px;\n  font-family: monospace, sans-serif;\n}\n\ndiv > .vimiumHintMarker > .matchingCharacter {\n  /* Highlight matched characters */\n  color: #fabd2f; /* Gruvbox yellow accent */\n}",
+  "exclusionRules": []
+}
+

@@ -1,0 +1,26 @@
+
+//@theme "/usr/share/rofi/themes/gruvbox-dark-hard.rasi"
+configuration {
+    font: "JetBrainsMono Nerd Mono 16";
+}
+
+//@theme "/usr/share/rofi/themes/Monokai.rasi"
+
+//@theme "/usr/share/rofi/themes/dmenu.rasi"
+
+//@theme "/usr/share/rofi/themes/arthur.rasi"
+
+//@theme "/usr/share/rofi/themes/gruvbox-dark.rasi"
+
+//@theme "/usr/share/rofi/themes/gruvbox-dark-soft.rasi"
+
+//@theme "/usr/share/rofi/themes/gruvbox-light-soft.rasi"
+
+//@theme "/usr/share/rofi/themes/gruvbox-dark.rasi"
+
+
+//@theme "/usr/share/rofi/themes/gruvbox-light-soft.rasi"
+
+//@theme "/usr/share/rofi/themes/gruvbox-dark-hard.rasi"
+
+@theme "/usr/share/rofi/themes/gruvbox-light-soft.rasi"

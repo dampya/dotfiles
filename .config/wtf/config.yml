@@ -1,0 +1,71 @@
+wtf:
+  colors:
+    border:
+      focusable: "#3c3836"   # dim gray (focusable but inactive)
+      focused: "#ll971a"     # green (active/focused border)
+      normal: "#504945"      # darker gray (inactive border)
+  grid:
+    columns: [40]
+    rows: [10]
+  refreshInterval: 1
+
+  mods:
+    feedreader:
+      enabled: true
+      feeds:
+        - https://news.ycombinator.com/rss
+        - https://feeds.bbci.co.uk/news/rss.xml
+        - https://www.nasa.gov/rss/dyn/breaking_news.rss
+      feedLimit: 10
+      position:
+        top: 0
+        left: 0
+        width: 2
+        height: 2
+      refreshInterval: 14400
+      title: "feed-reader"
+      numbered: false
+
+    prettyweather:
+      enabled: true
+      city: "dublin"
+      position:
+        top: 2
+        left: 1
+        height: 1
+        width: 1
+      refreshInterval: 5m
+      unit: "m"
+      view: 0
+      language: "en"
+      title: ""
+      border: false
+
+    subreddit:
+      enabled: true
+      numberOfPosts: 20
+      position:
+        top: 3
+        left: 0
+        height: 2
+        width: 2
+      refreshInterval: 15m
+      sortOrder: new
+      subreddit: "news"
+      topTimePeriod: month
+      title: ""
+
+    digitalclock:
+      color: orange
+      enabled: true
+      font: bigfont
+      hourFormat: 12
+      position:
+        top: 2
+        left: 0
+        height: 1
+        width: 1
+      refreshInterval: 1s
+      type: "digitalclock"
+      title: ""
+      border: false

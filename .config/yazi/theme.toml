@@ -1,0 +1,154 @@
+# vim:fileencoding=utf-8:foldmethod=marker
+
+# : Manager {{{
+
+[mgr]
+# CWD (top path) — Spotify pink
+cwd = { fg = "#d3869b" }
+
+# Hovered / active selection
+hovered         = { fg = "#ebdbb2", bg = "#3c3836" }
+preview_hovered = { underline = true }
+
+# Find
+find_keyword  = { fg = "#b8bb26", italic = true }
+find_position = { fg = "#d79921", bg = "reset", italic = true }
+
+# Marker
+marker_selected = { fg = "#b8bb26", bg = "#b8bb26" }
+marker_copied   = { fg = "#b8bb26", bg = "#b8bb26" }
+marker_cut      = { fg = "#cc241d", bg = "#cc241d" }
+
+# Tabs
+tab_active   = { fg = "#ebdbb2", bg = "#3c3836" }
+tab_inactive = { fg = "#ebdbb2", bg = "#504945" }
+tab_width    = 1
+
+# Vertical borders only — same color as file text
+border_symbol = "│"
+border_style  = { fg = "#ebdbb2" }
+
+# : }}}
+
+
+# : Status {{{
+
+[status]
+# Bottom bar
+bg = "#3c3836"
+
+separator_open  = ""
+separator_close = ""
+separator_style = { fg = "#3c3836", bg = "#3c3836" }
+
+# All text pink (no bold)
+progress_label  = { fg = "#d3869b" }
+progress_normal = { fg = "#d3869b", bg = "#3c3836" }
+progress_error  = { fg = "#cc241d", bg = "#3c3836" }
+
+permissions_t = { fg = "#504945" }
+permissions_r = { fg = "#b8bb26" }
+permissions_w = { fg = "#cc241d" }
+permissions_x = { fg = "#b8bb26" }
+permissions_s = { fg = "#665c54" }
+
+# : }}}
+
+
+# : Mode {{{
+
+[mode]
+normal_main = { fg = "#ebdbb2", bg = "#3c3836" }
+normal_alt  = { fg = "#ebdbb2", bg = "#3c3836" }
+
+select_main = { fg = "#ebdbb2", bg = "#3c3836" }
+select_alt  = { fg = "#ebdbb2", bg = "#3c3836" }
+
+unset_main  = { fg = "#3c3836", bg = "#b16286" }
+unset_alt   = { fg = "#3c3836", bg = "#b16286" }
+
+# : }}}
+
+
+# : Input {{{
+
+[input]
+border   = { fg = "#bdae93" }
+title    = {}
+value    = {}
+selected = { bg = "#3c3836", fg = "#ebdbb2" }
+
+# : }}}
+
+
+# : Select {{{
+
+[select]
+border   = { fg = "#504945" }
+active   = { fg = "#3c3836" }
+inactive = { fg = "#ebdbb2" }
+
+# : }}}
+
+
+# : Tasks {{{
+
+[tasks]
+border  = { fg = "#504945" }
+title   = {}
+hovered = { underline = true }
+
+# : }}}
+
+
+# : Which {{{
+
+[which]
+mask            = { bg = "#3c3836" }
+cand            = { fg = "#b8bb26" }
+rest            = { fg = "#ebdbb2" }
+desc            = { fg = "#83a598" }
+separator       = "  "
+separator_style = { fg = "#504945" }
+
+# : }}}
+
+
+# : Help {{{
+
+[help]
+bg      = "#3c3836"
+on      = { fg = "#b8bb26" }
+exec    = { fg = "#b8bb26" }
+desc    = { fg = "#ebdbb2" }
+hovered = { bg = "#504945" }
+footer  = { fg = "#d3869b", bg = "#3c3836" }
+
+# : }}}
+
+
+# : File-specific styles {{{
+
+[filetype]
+rules = [
+    { mime = "image/*", fg = "#83a598" },
+    { mime = "video/*", fg = "#b8bb26" },
+    { mime = "audio/*", fg = "#b8bb26" },
+
+    { mime = "application/zip",             fg = "#d79921" },
+    { mime = "application/gzip",            fg = "#d79921" },
+    { mime = "application/x-tar",           fg = "#d79921" },
+    { mime = "application/x-bzip",          fg = "#d79921" },
+    { mime = "application/x-bzip2",         fg = "#d79921" },
+    { mime = "application/x-7z-compressed", fg = "#d79921" },
+    { mime = "application/x-rar",           fg = "#d79921" },
+
+    # Folders = Spotify green
+    { name = "*/", fg = "#b8bb26" },
+
+    # Default files
+    { name = "*", fg = "#ebdbb2" }
+]
+
+# : }}}
+

@@ -1,0 +1,74 @@
+/***********************************************************
+    1. HIDE THE MENU BAR (File Edit View History …)
+************************************************************/
+#toolbar-menubar {
+    display: none !important;
+}
+
+/***********************************************************
+    2. SINGLE TOP BAR (URL LEFT, TABS RIGHT)
+************************************************************/
+#TabsToolbar,
+#nav-bar {
+    background: transparent !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* keep nav-bar on left, tabs on the right in same row */
+#nav-bar {
+    order: 1 !important;
+}
+#TabsToolbar {
+    order: 2 !important;
+}
+
+/* force everything into a single horizontal bar */
+#titlebar,
+#navigator-toolbox {
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+#navigator-toolbox > toolbar {
+    min-height: 32px !important;
+}
+
+#TabsToolbar .titlebar-buttonbox-container {
+    display: none !important;
+}
+
+#tabbrowser-tabs {
+    margin-left: 4px !important;
+}
+
+/***********************************************************
+    3. MOVE APPLICATION MENU BUTTON (≡) LEFT OF URL BAR
+************************************************************/
+#PanelUI-button {
+    order: -10 !important; /* move to far left */
+}
+
+/***********************************************************
+    4. HIDE NAVIGATION BUTTONS (back/forward/bookmark/more-tools)
+************************************************************/
+
+/* back + forward */
+#back-button,
+#forward-button {
+    display: none !important;
+}
+
+/* bookmark star */
+#star-button,
+#star-button-box {
+    display: none !important;
+}
+
+/* “more tools” / page actions button inside urlbar */
+#urlbar-menu-button,      /* Firefox's modern page-action menu (⋯) */
+#pageActionButton,
+#page-action-buttons {
+    display: none !important;
+}
+

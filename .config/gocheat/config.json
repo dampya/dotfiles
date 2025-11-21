@@ -1,0 +1,782 @@
+{
+  "items": [
+    {
+      "title": "Take Screenshot (Region) : SUPER + S",
+      "tag": "Hyprland"
+    },
+    {
+      "title": "Take Screenshot (Output) : SUPER + A",
+      "tag": "Hyprland"
+    },
+    {
+      "title": "Open GoCheat in Kitty : SUPER + C",
+      "tag": "Hyprland"
+    },
+    {
+      "title": "Open Terminal : SUPER + RETURN",
+      "tag": "Hyprland"
+    },
+    {
+      "title": "Kill Active Window : SUPER + D",
+      "tag": "Hyprland"
+    },
+    {
+      "title": "Exit Hyprland : SUPER + M",
+      "tag": "Hyprland"
+    },
+    {
+      "title": "Open File Manager : SUPER + SHIFT + F",
+      "tag": "Hyprland"
+    },
+    {
+      "title": "Open App Launcher : SUPER + SPACE",
+      "tag": "Hyprland"
+    },
+    {
+      "title": "Toggle Split Layout : SUPER + O",
+      "tag": "Hyprland"
+    },
+    {
+      "title": "Toggle Fullscreen : SUPER + F",
+      "tag": "Hyprland"
+    },
+    {
+      "title": "Move Focus (←↑↓→) : SUPER + H/J/K/L",
+      "tag": "Hyprland"
+    },
+    {
+      "title": "Switch Workspace [1-6] : SUPER + [1-6]",
+      "tag": "Hyprland"
+    },
+    {
+      "title": "Move Window to Workspace : SUPER + SHIFT + [1-6]",
+      "tag": "Hyprland"
+    },
+    {
+      "title": "Lock Screen : CTRL + SHIFT + L",
+      "tag": "Hyprland"
+    },
+    {
+      "title": "Resize Window : SUPER + SHIFT + H/J/K/L",
+      "tag": "Hyprland"
+    },
+    {
+      "title": "Move Window : SUPER + CTRL + H/J/K/L",
+      "tag": "Hyprland"
+    },
+    {
+      "title": "Swap Window : SUPER + ALT + H/J/K/L",
+      "tag": "Hyprland"
+    },
+    {
+      "title": "Volume Up : XF86AudioRaiseVolume",
+      "tag": "Hyprland"
+    },
+    {
+      "title": "Volume Down : XF86AudioLowerVolume",
+      "tag": "Hyprland"
+    },
+    {
+      "title": "Mute Audio : XF86AudioMute",
+      "tag": "Hyprland"
+    },
+    {
+      "title": "Mute Microphone : XF86AudioMicMute",
+      "tag": "Hyprland"
+    },
+    {
+      "title": "Brightness Up : XF86MonBrightnessUp",
+      "tag": "Hyprland"
+    },
+    {
+      "title": "Brightness Down : XF86MonBrightnessDown",
+      "tag": "Hyprland"
+    },
+    {
+      "title": "Next / Prev / Play-Pause : XF86AudioNext / Prev / Play",
+      "tag": "Hyprland"
+    },
+
+    {
+      "title": "Scroll Down : ALT + j",
+      "tag": "Kitty"
+    },
+    {
+      "title": "Scroll Up : ALT + k",
+      "tag": "Kitty"
+    },
+
+    {
+      "title": "CapsLock → Shift / Esc (overload)",
+      "tag": "Keyd"
+    },
+    {
+      "title": "RightShift → Backspace",
+      "tag": "Keyd"
+    },
+    {
+      "title": "Space → RightCtrl / Space (overload)",
+      "tag": "Keyd"
+    },
+    {
+      "title": "RightCtrl + H/J/K/L → ←/↓/↑/→",
+      "tag": "Keyd"
+    },
+    {
+      "title": "RightCtrl + A/S/D/F → Home / Enter / Backspace / End",
+      "tag": "Keyd"
+    },
+
+    {
+      "title": "Alias: vim = nvim",
+      "tag": "Zsh"
+    },
+    {
+      "title": "Alias: btm = btm --theme gruvbox",
+      "tag": "Zsh"
+    },
+    {
+      "title": "Alias: lgit = lazygit",
+      "tag": "Zsh"
+    },
+    {
+      "title": "Alias: dus = du -h | sort -h",
+      "tag": "Zsh"
+    },
+    {
+      "title": "Alias: pacupdate = sudo pacman -Syu",
+      "tag": "Zsh"
+    },
+    {
+      "title": "Alias: pacclear = paccache -rvuk1",
+      "tag": "Zsh"
+    },
+    {
+      "title": "Alias: pacdel = sudo pacman -Rcns",
+      "tag": "Zsh"
+    },
+    {
+      "title": "Alias: cd = z (zoxide)",
+      "tag": "Zsh"
+    },
+    {
+      "title": "Alias: ll = ls -al",
+      "tag": "Zsh"
+    },
+    {
+      "title": "Alias: del = rm -rf",
+      "tag": "Zsh"
+    },
+    {
+      "title": "Alias: cls = clear",
+      "tag": "Zsh"
+    },
+
+    {
+      "title": "tmux: Rename Session : CTRL+b $",
+      "tag": "Tmux"
+    },
+    {
+      "title": "tmux: Detach Session : CTRL+b d",
+      "tag": "Tmux"
+    },
+    {
+      "title": "tmux: List Sessions : CTRL+b s",
+      "tag": "Tmux"
+    },
+    {
+      "title": "tmux: Kill Window : CTRL+b &",
+      "tag": "Tmux"
+    },
+    {
+      "title": "tmux: New Window : CTRL+b c",
+      "tag": "Tmux"
+    },
+    {
+      "title": "tmux: Rename Window : CTRL+b ,",
+      "tag": "Tmux"
+    },
+    {
+      "title": "tmux: Next/Prev Window : CTRL+b n/p",
+      "tag": "Tmux"
+    },
+    {
+      "title": "tmux: Vertical Split : CTRL+b %",
+      "tag": "Tmux"
+    },
+    {
+      "title": "tmux: Horizontal Split : CTRL+b \"",
+      "tag": "Tmux"
+    },
+    {
+      "title": "tmux: Switch Pane : CTRL+b + Arrow",
+      "tag": "Tmux"
+    },
+    {
+      "title": "tmux: Resize Pane : CTRL+b + Arrow (Hold)",
+      "tag": "Tmux"
+    },
+    {
+      "title": "tmux: Close Pane : CTRL+b x",
+      "tag": "Tmux"
+    },
+
+    {
+      "title": "Scroll Down : j",
+      "tag": "Vimium"
+    },
+    {
+      "title": "Scroll Up : k",
+      "tag": "Vimium"
+    },
+    {
+      "title": "Scroll Top / Bottom : gg / G",
+      "tag": "Vimium"
+    },
+    {
+      "title": "Half Page Down / Up : d / u",
+      "tag": "Vimium"
+    },
+    {
+      "title": "Scroll Left / Right : h / l",
+      "tag": "Vimium"
+    },
+    {
+      "title": "Reload Page : r",
+      "tag": "Vimium"
+    },
+    {
+      "title": "Copy URL : yy",
+      "tag": "Vimium"
+    },
+    {
+      "title": "Open Clipboard URL (Same/New Tab) : p / P",
+      "tag": "Vimium"
+    },
+    {
+      "title": "Enter Insert Mode : i",
+      "tag": "Vimium"
+    },
+    {
+      "title": "Enter Visual Mode : v",
+      "tag": "Vimium"
+    },
+    {
+      "title": "Find Mode : /",
+      "tag": "Vimium"
+    },
+    {
+      "title": "Next / Prev Match : n / N",
+      "tag": "Vimium"
+    },
+    {
+      "title": "Open URL / Bookmark : o / O / b / B",
+      "tag": "Vimium"
+    },
+    {
+      "title": "Go Back / Forward : H / L",
+      "tag": "Vimium"
+    },
+    {
+      "title": "New Tab / Close Tab : t / x",
+      "tag": "Vimium"
+    },
+    {
+      "title": "Next / Prev Tab : K / J",
+      "tag": "Vimium"
+    },
+    {
+      "title": "Duplicate Tab : yt",
+      "tag": "Vimium"
+    },
+    {
+      "title": "Restore Closed Tab : X",
+      "tag": "Vimium"
+    },
+    {
+      "title": "Show Help : ?",
+      "tag": "Vimium"
+    },
+    {
+      "title": "Switch Buffer : ALT + [0-9]",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Next / Previous Buffer : ALT + n / ALT + p",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Go to Last Buffer : ALT + l",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Switch Window (Split) : ALT + ← / → / ↑ / ↓",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Scroll Up / Down Chat : PgUp / PgDn",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Scroll One Line Up / Down : ALT + ↑ / ALT + ↓",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Scroll Nicklist : ALT + Home / ALT + End",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Split Window Horizontally : /window splitv",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Split Window Vertically : /window splith",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Close Current Window : /window merge",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Open New Buffer : /buffer +",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Close Current Buffer : /buffer close",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Move to Buffer N : /buffer N",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Join Channel : /join #channel",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Leave Channel : /part [message]",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Send Private Message : /msg nick message",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Change Nickname : /nick newnick",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Quit IRC : /quit [message]",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Reconnect Server : /reconnect",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Disconnect Server : /disconnect",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "List Buffers : /buffer list",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Set Topic : /topic [new topic]",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Toggle Nicklist : F9",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Toggle Buffer List : F11",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Toggle Input Bar : ALT + r",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Clear Chat Buffer : /clear",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Search in Buffer : ALT + s",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Next / Prev Search Match : ALT + n / ALT + p",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Execute Last Command : ALT + Enter",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Open Command History : ALT + h",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Edit Input Line : Home / End / CTRL + u / CTRL + k",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Paste Multiline Text : CTRL + y",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Reload Configuration : /reload",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Save Configuration : /save",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Set Option : /set option value",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "List Options : /set",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Load Plugin : /plugin load filename.so",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Unload Plugin : /plugin unload name",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "List Plugins : /plugin list",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Run Script : /script install script.py",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "List Scripts : /script list",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Buffer Hotlist (Unread Messages) : ALT + a",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Show Server List : /server list",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Add New Server : /server add name address/port",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Connect to Server : /connect name",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Ignore User : /ignore add nick",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Unignore User : /ignore del nick",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "View Ignore List : /ignore list",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Toggle Mouse Mode : ALT + m",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Show Keybindings : /key list",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Set Custom Keybind : /key bind key command",
+      "tag": "WeeChat"
+    },
+    {
+      "title": "Open Command Palette : <leader> + space",
+      "tag": "LazyVim"
+    },
+    {
+      "title": "Find File : <leader> + f + f",
+      "tag": "Telescope"
+    },
+    {
+      "title": "Find in Files (Grep) : <leader> + f + g",
+      "tag": "Telescope"
+    },
+    {
+      "title": "Search in Buffer : <leader> + /",
+      "tag": "Telescope"
+    },
+    {
+      "title": "Open Recent Files : <leader> + f + r",
+      "tag": "Telescope"
+    },
+    {
+      "title": "Show Buffers : <leader> + ,",
+      "tag": "Telescope"
+    },
+    {
+      "title": "Open File Explorer : <leader> + e",
+      "tag": "NeoTree"
+    },
+    {
+      "title": "Toggle File Explorer : <leader> + e + e",
+      "tag": "NeoTree"
+    },
+    {
+      "title": "Close File Explorer : <leader> + e + c",
+      "tag": "NeoTree"
+    },
+    {
+      "title": "Open Lazy Plugin Manager : <leader> + l",
+      "tag": "Lazy"
+    },
+    {
+      "title": "Update Plugins : <leader> + l + u",
+      "tag": "Lazy"
+    },
+    {
+      "title": "Sync Plugins : <leader> + l + s",
+      "tag": "Lazy"
+    },
+    {
+      "title": "Check Plugin Health : <leader> + l + c",
+      "tag": "Lazy"
+    },
+    {
+      "title": "Open Mason (LSP/DAP installer) : <leader> + m",
+      "tag": "Mason"
+    },
+    {
+      "title": "Open LSP Info : <leader> + c + i",
+      "tag": "LSP"
+    },
+    {
+      "title": "Show Code Actions : <leader> + c + a",
+      "tag": "LSP"
+    },
+    {
+      "title": "Rename Symbol : <leader> + c + r",
+      "tag": "LSP"
+    },
+    {
+      "title": "Format File : <leader> + c + f",
+      "tag": "LSP"
+    },
+    {
+      "title": "Hover Docs : K",
+      "tag": "LSP"
+    },
+    {
+      "title": "Go to Definition : gd",
+      "tag": "LSP"
+    },
+    {
+      "title": "Go to Declaration : gD",
+      "tag": "LSP"
+    },
+    {
+      "title": "Go to Implementation : gi",
+      "tag": "LSP"
+    },
+    {
+      "title": "List References : gr",
+      "tag": "LSP"
+    },
+    {
+      "title": "Show Diagnostics : <leader> + d",
+      "tag": "LSP"
+    },
+    {
+      "title": "Next Diagnostic : ]d",
+      "tag": "LSP"
+    },
+    {
+      "title": "Prev Diagnostic : [d",
+      "tag": "LSP"
+    },
+    {
+      "title": "Open Terminal (ToggleTerm) : <leader> + t",
+      "tag": "Terminal"
+    },
+    {
+      "title": "Open Floating Terminal : <leader> + t + f",
+      "tag": "Terminal"
+    },
+    {
+      "title": "Horizontal Terminal : <leader> + t + h",
+      "tag": "Terminal"
+    },
+    {
+      "title": "Vertical Terminal : <leader> + t + v",
+      "tag": "Terminal"
+    },
+    {
+      "title": "Git Status (Neogit) : <leader> + g + g",
+      "tag": "Git"
+    },
+    {
+      "title": "Git Diff View : <leader> + g + d",
+      "tag": "Git"
+    },
+    {
+      "title": "Git Blame Line : <leader> + g + b",
+      "tag": "Git"
+    },
+    {
+      "title": "Git Next / Prev Hunk : ]h / [h",
+      "tag": "Git"
+    },
+    {
+      "title": "Git Preview Hunk : <leader> + g + p",
+      "tag": "Git"
+    },
+    {
+      "title": "Git Reset Hunk : <leader> + g + r",
+      "tag": "Git"
+    },
+    {
+      "title": "Git Stage Hunk : <leader> + g + s",
+      "tag": "Git"
+    },
+    {
+      "title": "Git Undo Stage : <leader> + g + u",
+      "tag": "Git"
+    },
+    {
+      "title": "Next Buffer : ]b",
+      "tag": "Buffers"
+    },
+    {
+      "title": "Prev Buffer : [b",
+      "tag": "Buffers"
+    },
+    {
+      "title": "Close Buffer : <leader> + b + d",
+      "tag": "Buffers"
+    },
+    {
+      "title": "Pick Buffer : <leader> + b + p",
+      "tag": "Buffers"
+    },
+    {
+      "title": "New Buffer : <leader> + b + n",
+      "tag": "Buffers"
+    },
+    {
+      "title": "Split Window Horizontally : <leader> + w + s",
+      "tag": "Windows"
+    },
+    {
+      "title": "Split Window Vertically : <leader> + w + v",
+      "tag": "Windows"
+    },
+    {
+      "title": "Close Window : <leader> + w + q",
+      "tag": "Windows"
+    },
+    {
+      "title": "Move Between Windows : CTRL + h/j/k/l",
+      "tag": "Windows"
+    },
+    {
+      "title": "Resize Window : ALT + Arrow Keys",
+      "tag": "Windows"
+    },
+    {
+      "title": "Toggle File Symbols (Outline) : <leader> + s + o",
+      "tag": "Symbols"
+    },
+    {
+      "title": "Toggle Comment : gc (normal) / gc (visual)",
+      "tag": "Comment"
+    },
+    {
+      "title": "Toggle Indent Guide : <leader> + u + i",
+      "tag": "UI"
+    },
+    {
+      "title": "Toggle Line Numbers : <leader> + u + n",
+      "tag": "UI"
+    },
+    {
+      "title": "Toggle Diagnostics : <leader> + u + d",
+      "tag": "UI"
+    },
+    {
+      "title": "Toggle Spell Check : <leader> + u + s",
+      "tag": "UI"
+    },
+    {
+      "title": "Toggle Wrap : <leader> + u + w",
+      "tag": "UI"
+    },
+    {
+      "title": "Toggle Word Highlight : <leader> + u + h",
+      "tag": "UI"
+    },
+    {
+      "title": "Toggle Inlay Hints : <leader> + u + l",
+      "tag": "UI"
+    },
+    {
+      "title": "Run Code (Executor) : <leader> + r",
+      "tag": "Code"
+    },
+    {
+      "title": "Toggle Trouble Diagnostics View : <leader> + x + x",
+      "tag": "Diagnostics"
+    },
+    {
+      "title": "Show Document Diagnostics : <leader> + x + d",
+      "tag": "Diagnostics"
+    },
+    {
+      "title": "Show Workspace Diagnostics : <leader> + x + w",
+      "tag": "Diagnostics"
+    },
+    {
+      "title": "Open Undo Tree : <leader> + u",
+      "tag": "Tools"
+    },
+    {
+      "title": "Session Restore : <leader> + q + l",
+      "tag": "Session"
+    },
+    {
+      "title": "Session Save : <leader> + q + s",
+      "tag": "Session"
+    },
+    {
+      "title": "Quit Neovim : <leader> + q + q",
+      "tag": "Core"
+    },
+    {
+      "title": "Write File : <leader> + w",
+      "tag": "Core"
+    },
+    {
+      "title": "Quit All and Save : <leader> + Q",
+      "tag": "Core"
+    },
+    {
+      "title": "Show Keymaps : <leader> + ?",
+      "tag": "Core"
+    }
+  ],
+  "styles": {
+    "subtext": "#b16286",
+    "accent": "#d79921"
+  }
+}
+

@@ -1,0 +1,128 @@
+* {
+    border: none;
+    border-radius: 0px;
+    font-family: "JetBrainsMono Nerd Font Mono";
+    font-weight: 500;
+    font-size: 15px;
+}
+
+window#waybar {
+    background-color: transparent;
+}
+
+tooltip {
+    background-color: #3c3836;
+    color: #ebdbb2;
+}
+
+/* --- General module styling --- */
+#tray,
+#language,
+#clock,
+#window,
+#cpu,
+#disk,
+#memory,
+#battery,
+#network,
+#pulseaudio,
+#custom-power {
+    margin: 6px 3px 6px 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+/* --- Workspaces --- */
+#workspaces {
+    margin: 6px 3px;
+}
+
+#workspaces button {
+    min-width: 0;
+    padding: 3px 6px;
+    background-color: #3c3836;
+    color: #ebdbb2;
+    box-shadow: none;
+    text-shadow: none;
+    margin: 0 3px 0 0;
+}
+
+#workspaces button.active {
+    background-color: #fabd2f;
+    color: #282828;
+}
+
+#workspaces button:hover {
+    background-color: #504945;
+    color: #fabd2f;
+}
+
+/* --- Individual modules --- */
+#clock {
+    background-color: #3c3836;
+    color: #ebdbb2;
+}
+
+#disk {
+    background-color: #8ec07c;
+    color: #282828;
+}
+
+#window {
+    background-color: #eadbb2;
+    color: #282828;
+}
+
+window#waybar.empty #window {
+    background: none;
+}
+
+#custom-power { 
+    background-color: #3c3836;
+    color: #ebdbb2;
+}
+
+#tray {
+    background-color: #3c3836;
+}
+
+#battery {
+    background-color: #83a598;
+    color: #282828;
+}
+
+#cpu {
+    background-color: #fabd2f;
+    color: #282828;
+}
+
+#memory {
+    background-color: #b8bb26;
+    color: #282828;
+}
+
+#network {
+    background-color: #fb4934;
+    color: #282828;
+}
+
+#pulseaudio {
+    background-color: #d3869b;
+    color: #282828;
+}
+
+#language {
+    background-color: #fe8019;
+    color: #282828;
+}
+
+/* --- Critical states --- */
+#cpu.critical,
+#memory.critical,
+#battery.warning,
+#battery.critical,
+#battery.urgent {
+    background-color: #fe8019;
+    color: #282828;
+}
+

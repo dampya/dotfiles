@@ -1,0 +1,25 @@
+# Gruvbox Dark Theme for Dunst
+# Only color settings — no font, size, or geometry changes.
+
+[global]
+    # Frame color for notifications
+    frame_color = "#504945"
+
+[urgency_low]
+    background = "#282828"
+    foreground = "#ebdbb2"
+    frame_color = "#3c3836"
+    timeout = 5
+
+[urgency_normal]
+    background = "#32302f"
+    foreground = "#ebdbb2"
+    frame_color = "#504945"
+    timeout = 10
+
+[urgency_critical]
+    background = "#1d2021"
+    foreground = "#fbf1c7"
+    frame_color = "#cc241d"
+    timeout = 0
+

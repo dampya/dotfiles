@@ -1,0 +1,47 @@
+window
+{
+    font-family: "JetBrains Nerd Font Mono";
+    font-size: 1.5em;
+    background-color: rgba(28, 28, 28, 0.5);
+
+} 
+
+button
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20%;
+    background-color: transparent;
+    animation: gradient_f 20s ease-in infinite;
+    transition: all 0.3s ease-in;
+    box-shadow: 0 0 10px 2px transparent;
+    border-radius: 36px;
+    margin: 10px;
+}
+
+button:focus
+{
+    box-shadow: none;
+    background-size : 20%;
+}
+
+button:hover
+{
+    background-size: 24%;
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.4);
+    color: transparent;
+    background-color: @color6;
+    transition: all 0.3s cubic-bezier(0.55, 0.0, 0.28, 1.682), box-shadow 0.5s ease-in;
+}
+
+#lock {
+    background-image: image(url("/home/omi/.config/wlogout/icons/lock.png"));
+}
+#shutdown {
+    background-image: image(url("/home/omi/.config/wlogout/icons/power.png"));
+}
+
+#reboot {
+    background-image: image(url("/home/omi/.config/wlogout/icons/restart.png"));
+}
+

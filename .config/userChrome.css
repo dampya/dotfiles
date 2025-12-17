@@ -1,13 +1,7 @@
-/***********************************************************
-    1. HIDE THE MENU BAR (File Edit View History …)
-************************************************************/
 #toolbar-menubar {
     display: none !important;
 }
 
-/***********************************************************
-    2. SINGLE TOP BAR (URL LEFT, TABS RIGHT)
-************************************************************/
 #TabsToolbar,
 #nav-bar {
     background: transparent !important;
@@ -15,7 +9,6 @@
     margin: 0 !important;
 }
 
-/* keep nav-bar on left, tabs on the right in same row */
 #nav-bar {
     order: 1 !important;
 }
@@ -23,7 +16,6 @@
     order: 2 !important;
 }
 
-/* force everything into a single horizontal bar */
 #titlebar,
 #navigator-toolbox {
     display: flex !important;
@@ -42,16 +34,9 @@
     margin-left: 4px !important;
 }
 
-/***********************************************************
-    3. MOVE APPLICATION MENU BUTTON (≡) LEFT OF URL BAR
-************************************************************/
 #PanelUI-button {
     order: -10 !important; /* move to far left */
 }
-
-/***********************************************************
-    4. HIDE NAVIGATION BUTTONS (back/forward/bookmark/more-tools)
-************************************************************/
 
 /* back + forward */
 #back-button,
@@ -65,8 +50,7 @@
     display: none !important;
 }
 
-/* “more tools” / page actions button inside urlbar */
-#urlbar-menu-button,      /* Firefox's modern page-action menu (⋯) */
+#urlbar-menu-button,
 #pageActionButton,
 #page-action-buttons {
     display: none !important;

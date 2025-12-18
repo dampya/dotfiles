@@ -2,6 +2,18 @@ Arch Linux + Hyprland Setup
 
 Minimal Gruvbox Dark Theme
 
+Specifications - 
+  OS - Arch Linux
+  DE - Hyprland
+  Terminal - Kitty
+  Editor - Neovim (Lazyvim)
+  Browser - Firefox
+  File Manager - Yazi
+  IRC - Weechat
+  Keybinds - Keyd
+  App Launcher - Rofi
+  TLP Battery Care Enabled
+
 Tools -
 
 [![Tools](https://img.youtube.com/vi/iSrFnx3w6yQ/0.jpg)](https://www.youtube.com/watch?v=iSrFnx3w6yQ)
@@ -14,7 +26,6 @@ Firefox & Tools (Monitor 2) -
 
 ![Firefox](./media/firefox.png)
 
-Background Image -
+Logout - 
 
-![Background](./media/dragon.png)
-
+!(Logout)[./media/logout.png]

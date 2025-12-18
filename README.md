@@ -18,7 +18,7 @@ Specifications -
 
 Tools -
 
-[![Tools](https://img.youtube.com/vi/iSrFnx3w6yQ/0.jpg)](https://www.youtube.com/watch?v=iSrFnx3w6yQ)
+[![Tools](./media/recording.mp4)
 
 Dashboard (Monitor 1) -
 

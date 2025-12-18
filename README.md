@@ -28,4 +28,4 @@ Firefox & Tools (Monitor 2) -
 
 Logout - 
 
-!(Logout)[./media/logout.png]
+![Logout](./media/logout.png)

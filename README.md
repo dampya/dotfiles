@@ -4,7 +4,7 @@ Minimal Gruvbox Theme
 
 Dashboard (Monitor 1)-
 
-![Dashboard](./medea/dashboard.png)
+![Dashboard](./media/dashboard.png)
 
 Firefox & Tools (Monitor 2)-
 

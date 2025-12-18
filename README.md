@@ -18,7 +18,7 @@ Specifications -
 
 Tools -
 
-[![Tools](./media/recording.mp4)
+![Tools](./media/recording.mp4)
 
 Dashboard (Monitor 1) -
 

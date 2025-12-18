@@ -10,7 +10,7 @@ Firefox & Tools (Monitor 2)-
 
 ![Firefox](./media/firefox.png)
 
-![Tools](https://raw.githubusercontent.com/dampya/dotfiles/main/dotfiles/media/recording.mkv)
+![Tools](https://youtu.be/iSrFnx3w6yQ)
 
 Background Image-
 

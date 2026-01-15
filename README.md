@@ -17,8 +17,9 @@ Specifications -
 11) Font - Nerd Font Mono
 
 Tools -
-
-[![Tools](https://img.youtube.com/vi/iSrFnx3w6yQ/0.jpg)](https://www.youtube.com/watch?v=iSrFnx3w6yQ)
+<video width="100%" controls>
+  <source src="media/recording.mp4" type="video/mp4">
+</video>
 
 Dashboard (Monitor 1) -
 

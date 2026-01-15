@@ -18,7 +18,7 @@ Specifications -
 
 Tools -
 <video width="100%" controls>
-  <source src="./media/recording.mp4" type="video/mp4">
+  <source src="https://raw.githubusercontent.com/dampya/dotfiles/main/media/recording.mp4" type="video/mp4">
 </video>
 
 Dashboard (Monitor 1) -

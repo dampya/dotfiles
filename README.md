@@ -17,8 +17,7 @@ Specifications -
 11) Font - Nerd Font Mono
 
 Tools -
-[](url)
-https://github.com/user-attachments/assets/e8869ebf-dcba-4932-b3da-e2801d883680
+![Tools](https://github.com/user-attachments/assets/e8869ebf-dcba-4932-b3da-e2801d883680)
 
 Dashboard (Monitor 1) -
 

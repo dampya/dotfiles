@@ -18,7 +18,7 @@ Specifications -
 
 Tools -
 <video width="100%" controls>
-  <source src="media/recording.mp4" type="video/mp4">
+  <source src="./media/recording.mp4" type="video/mp4">
 </video>
 
 Dashboard (Monitor 1) -

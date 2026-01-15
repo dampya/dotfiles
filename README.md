@@ -17,9 +17,8 @@ Specifications -
 11) Font - Nerd Font Mono
 
 Tools -
-<video width="100%" controls>
-  <source src="https://raw.githubusercontent.com/dampya/dotfiles/main/media/recording.mp4" type="video/mp4">
-</video>
+[](url)
+https://github.com/user-attachments/assets/e8869ebf-dcba-4932-b3da-e2801d883680
 
 Dashboard (Monitor 1) -
 
